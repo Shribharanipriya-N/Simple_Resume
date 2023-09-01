@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(228, 237, 238);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 55%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(253, 253, 253);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+}
+.left {
+	position: initial;
+	background-color:#F7E6C4;
+	padding: 30px;
+
+}
+.right {
+	position: initial;
+	background-color: #FFF4F4;
+	padding: 30px;
+
+}
+.image, .Contact, .Skills, .Language, .programlang, .title,
+.Summary, .Education, .project {
+	margin-bottom: 30px;
+}
+
+.image img{
+	border-radius: 50%;
+	height: 150px;
+	margin-left: 30%;
+}
